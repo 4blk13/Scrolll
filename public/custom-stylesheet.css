@@ -1,0 +1,86 @@
+body, .modal-body {
+    background-color: black;
+}
+
+.card {
+    margin: 5px;
+    background-color:grey;
+}
+
+.card-text > .btn {
+    margin: 5px;
+}
+
+.flex-column {
+    max-width: 400px;
+}
+
+.column-img {
+    cursor: pointer;
+}
+
+.imagepreview {
+    height: 90vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search-results:hover {
+    background-color: rgb(200, 200, 200);
+}
+
+#livesearch {
+    position: absolute;
+    background-color: pink;
+    z-index: 2000;
+    overflow-y: auto;
+    max-height: 400px;
+    overscroll-behavior: contain;
+    border-radius: 10px;
+}
+
+#livesearch::-webkit-scrollbar {
+    display: none;
+}
+
+#search-container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body::-webkit-scrollbar{
+    width: 12px;
+    background-color: #202324;
+    color: #aba499;
+}
+
+body::-webkit-scrollbar-corner{
+    background-color: #181a1b;
+}
+
+body::-webkit-scrollbar-thumb{
+    border-radius: 4px;
+    background-image: initial;
+	background-color: #454a4d;
+}
+
+body::-webkit-scrollbar-track {
+    background-image: initial;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.ms-options-wrap {
+    color: black;
+}
+
+.selected-categories > .btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.tooltip {
+    z-index: 2001;
+}
